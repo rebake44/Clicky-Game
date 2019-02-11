@@ -1,0 +1,20 @@
+.footer {
+  background-color: rgb(231, 136, 136);
+  height: 100px;
+  position: relative;
+  color: white;
+  text-shadow: black;
+  overflow: auto;
+}
+
+.footer > .bottom {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  text-align: center;
+  background-color: rgb(238, 108, 108);
+  padding: 8px;
+  font-weight: 600;
+}
+

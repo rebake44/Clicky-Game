@@ -1,0 +1,45 @@
+.navbar {
+  color: rgb(231, 136, 136);
+  position: fixed;
+  height: 80px;
+  background-color: rgb(231, 136, 136);
+  width: 100%;
+  box-shadow: black;
+  color: white;
+ text-shadow: 2px 2px black;
+  font-size: 25px;
+  z-index: 99;
+  white-space: nowrap;
+}
+
+.navbar ul {
+  margin: 0;
+  padding: 0;
+}
+
+.navbar li {
+  display: inline-block;
+  padding: 25px 0px;
+  width: 33.3%;
+  text-align: center;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: white;
+  font-weight: 900;
+}
+
+@media (max-width: 420px) {
+  .navbar li:first-child {
+    width: 25%;
+  }
+
+  .navbar li:nth-child(2) {
+    width: 35%;
+  }
+
+  .navbar li:last-child {
+    width: 40%;
+  }
+}

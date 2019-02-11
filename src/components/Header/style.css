@@ -1,0 +1,19 @@
+.header {
+  /* background-color: #2C323C; */
+  background-image: url("./characters_favicon.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: rgb(231, 136, 136);
+  text-shadow: 2px 2px black;
+  min-height: 400px;
+  width: 100%;
+  padding: 180px 20px; 
+  padding-bottom: 140px;
+  text-align: center;
+}
+
+.header h1 {
+  margin: 0;
+  margin-bottom: 30px;
+  font-size: 4rem;
+}
